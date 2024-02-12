@@ -1,4 +1,4 @@
-import z, { optional, record } from "zod"
+import { z, optional, record } from "zod"
 import { prisma } from "../../lib/prisma"
 import { FastifyInstance } from "fastify"
 import { redis } from "../../lib/redis"
